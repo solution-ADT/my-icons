@@ -1,0 +1,22 @@
+{
+  "name": "Captain's Island",
+  "short_name": "Captain",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#064778",
+  "theme_color": "#064778",
+  "icons": [
+    {
+      "src": "../island.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../island.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
