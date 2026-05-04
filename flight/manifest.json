@@ -1,0 +1,22 @@
+{
+  "name": "The Moment – Flight",
+  "short_name": "Flight",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#2d236d",
+  "theme_color": "#2d236d",
+  "icons": [
+    {
+      "src": "../flight.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../flight.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
