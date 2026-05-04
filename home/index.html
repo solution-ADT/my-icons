@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dean's Creative Hub</title>
+
+  <link rel="icon" href="../blooming.png">
+  <link rel="apple-touch-icon" href="../blooming.png">
+  <link rel="manifest" href="./manifest.json">
+
+  <meta name="theme-color" content="#201734">
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(180deg, #201734, #8b4568, #e994b4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 430px;
+      padding: 34px 24px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      opacity: 0.85;
+      margin-bottom: 34px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 18px;
+      border-radius: 28px;
+      background: rgba(255,255,255,0.16);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+      text-decoration: none;
+      color: white;
+      text-align: left;
+    }
+
+    .card img {
+      width: 74px;
+      height: 74px;
+      border-radius: 20px;
+      flex-shrink: 0;
+    }
+
+    .card h2 {
+      margin: 0 0 6px;
+      font-size: 20px;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 13px;
+      opacity: 0.82;
+      line-height: 1.4;
+    }
+
+    .footer {
+      margin-top: 34px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Dean's Creative Hub</h1>
+    <div class="subtitle">순간을 기록하고, 세계를 연결하는 작은 앱 포털</div>
+
+    <div class="grid">
+
+      <a class="card" href="../">
+        <img src="../blooming.png" alt="Blooming Station">
+        <div>
+          <h2>Blooming Station</h2>
+          <p>오늘의 장면, 감정, 사진을 기록합니다.</p>
+        </div>
+      </a>
+
+      <a class="card" href="../captain/">
+        <img src="../island.png" alt="Captain's Island">
+        <div>
+          <h2>Captain's Island</h2>
+          <p>인물, 사건, 관계를 구성하는 창작 노트입니다.</p>
+        </div>
+      </a>
+
+      <a class="card" href="../flight/">
+        <img src="../flight.png" alt="The Moment Flight">
+        <div>
+          <h2>The Moment – Flight</h2>
+          <p>비행의 순간과 여행의 기억을 기록합니다.</p>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="footer">Powered by Dean & Maji</div>
+  </div>
+</body>
+</html>
